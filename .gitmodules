@@ -102,9 +102,9 @@
 [submodule "projects/braincode_NDD_Priority_Setting_Partnership"]
 	path = projects/braincode_NDD_Priority_Setting_Partnership
 	url = https://github.com/conpdatasets/braincode_NDD_Priority_Setting_Partnership.git
-[submodule "projects/Participant_level_contrast_maps"]
-	path = projects/Participant_level_contrast_maps
-	url = https://github.com/conp-bot/conp-dataset-Participant-level-contrast-maps.git
+[submodule "projects/Particpant_level_contrast_maps"]
+	path = projects/Particpant_level_contrast_maps
+	url = https://github.com/conp-bot/conp-dataset-Particpant-level-contrast-maps.git
 [submodule "projects/Quantifying_Neural_Cognitive_Relationships_Across_the_Brain"]
 	path = projects/Quantifying_Neural_Cognitive_Relationships_Across_the_Brain
 	url = https://github.com/conp-bot/conp-dataset-Quantifying-Neural-Cognitive-Relationships-Across-the-Brain.git
