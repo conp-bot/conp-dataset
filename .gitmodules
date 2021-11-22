@@ -102,12 +102,15 @@
 [submodule "projects/braincode_NDD_Priority_Setting_Partnership"]
 	path = projects/braincode_NDD_Priority_Setting_Partnership
 	url = https://github.com/conpdatasets/braincode_NDD_Priority_Setting_Partnership.git
+[submodule "projects/Particpant_level_contrast_maps"]
+	path = projects/Particpant_level_contrast_maps
+	url = https://github.com/conp-bot/conp-dataset-Particpant-level-contrast-maps.git
 [submodule "projects/Quantifying_Neural_Cognitive_Relationships_Across_the_Brain"]
 	path = projects/Quantifying_Neural_Cognitive_Relationships_Across_the_Brain
 	url = https://github.com/conp-bot/conp-dataset-Quantifying-Neural-Cognitive-Relationships-Across-the-Brain.git
 [submodule "projects/1000GenomesProject"]
 	path = projects/1000GenomesProject
-	url = https://github.com/emmetaobrien/1000GenomesProject
+	url = https://github.com/conpdatasets/1000GenomesProject
 [submodule "projects/Test"]
 	path = projects/Test
 	url = https://github.com/conp-bot/conp-dataset-Test.git
@@ -158,15 +161,3 @@
 [submodule "projects/mcgill-emc-rna-seq-experiment"]
 	path = projects/mcgill-emc-rna-seq-experiment
 	url = https://github.com/conpdatasets/mcgill-emc-rna-seq-experiment.git
-[submodule "projects/Synthetic_Animated_Mouse__SAM___University_of_British_Columbia__Datasets_and_3D_models"]
-	path = projects/Synthetic_Animated_Mouse__SAM___University_of_British_Columbia__Datasets_and_3D_models
-	url = https://github.com/conp-bot/conp-dataset-Synthetic-Animated-Mouse-SAM-University-of-British-Columbia-Datasets-and-3D-models.git
-[submodule "projects/preventad-open"]
-	path = projects/preventad-open
-	url = https://github.com/conpdatasets/preventad-open.git
-[submodule "projects/openpain/subacute_longitudinal_study"]
-	path = projects/openpain/subacute_longitudinal_study
-	url = https://github.com/conpdatasets/openpain-subacute_longitudinal_study.git
-[submodule "projects/openpain/thermal"]
-	path = projects/openpain/thermal
-	url = https://github.com/conpdatasets/openpain-thermal.git
