@@ -1,0 +1,46 @@
+{
+    "title": "Test",
+    "creators": [
+        {
+            "name": "Joey Zhou"
+        }
+    ],
+    "description": "Test project",
+    "version": "2020-03-26T15:26:32.169425",
+    "licenses": [
+        {
+            "name": "MIT License"
+        }
+    ],
+    "keywords": [
+        {
+            "value": "canadian-open-neuroscience-platform"
+        },
+        {
+            "value": "conp"
+        }
+    ],
+    "extraProperties": [
+        {
+            "category": "logo",
+            "values": [
+                {
+                    "value": "https://osf.io/static/img/institutions/shields/cos-shield.png"
+                }
+            ]
+        },
+        {
+            "category": "files",
+            "values": [
+                {
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "types": [
+        {
+            "value": "unknown"
+        }
+    ]
+}
