@@ -152,6 +152,6 @@
 [submodule "projects/mcgill-emc-rna-seq-experiment"]
 	path = projects/mcgill-emc-rna-seq-experiment
 	url = https://github.com/conpdatasets/mcgill-emc-rna-seq-experiment.git
-[submodule "projects/Test"]
-	path = projects/Test
+[submodule "conp-dataset-Test"]
+	path = conp-dataset-Test
 	url = https://github.com/conp-bot/conp-dataset-Test.git
