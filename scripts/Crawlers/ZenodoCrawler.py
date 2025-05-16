@@ -240,7 +240,7 @@ class ZenodoCrawler(BaseCrawler):
                             "size": dataset_size,
                             "unit": {"value": dataset_unit},
                             "access": {
-                                "landingPage": dataset.get("links", {}).get("html"),
+                                "landingPage": dataset.get("links", {}).get("self_html", "n/a"),
                                 "authorizations": [
                                     {
                                         "value": "public"
@@ -260,6 +260,22 @@ class ZenodoCrawler(BaseCrawler):
                                 },
                             ],
                         },
+                        {
+                            "category": "CONP_status",
+                            "values": [
+                                {
+                                    "value": "Canadian"
+                                }
+                            ]
+                        },
+	                {
+                            "category": "subjects",
+                            "values": [
+                                {
+                                    "value": "unknown"
+                                }
+                            ]
+                        }
                     ],
                     "dates": [
                         {
