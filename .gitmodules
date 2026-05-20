@@ -669,3 +669,6 @@
 [submodule "projects/Neural_capacity_limits_on_the_responses_to_memory_interference_during_working_me"]
 	path = projects/Neural_capacity_limits_on_the_responses_to_memory_interference_during_working_me
 	url = https://github.com/conp-bot/conp-dataset-Neural_capacity_limits_on_the_responses_to_memory_interference_duri.git
+[submodule "projects/Synthetic_Animated_Mouse_(SAM),_University_of_British_Columbia,_Datasets_and_3D-"]
+	path = projects/Synthetic_Animated_Mouse_(SAM),_University_of_British_Columbia,_Datasets_and_3D-
+	url = https://github.com/conp-bot/conp-dataset-Synthetic_Animated_Mouse.git
